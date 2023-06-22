@@ -1,0 +1,2101 @@
+$date
+	Fri Nov 11 23:19:16 2022
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1ns
+$end
+$scope module CPU_tb $end
+$var wire 8 ! result [7:0] $end
+$var reg 19 " instruction [18:0] $end
+$scope module uut $end
+$var wire 19 # instruction [18:0] $end
+$var wire 8 $ operand1 [7:0] $end
+$var wire 8 % operand2 [7:0] $end
+$var wire 3 & operator [2:0] $end
+$var wire 3 ' operatorbar [2:0] $end
+$var wire 8 ( select [7:0] $end
+$var wire 8 ) result [7:0] $end
+$scope module AL $end
+$var wire 8 * operand1 [7:0] $end
+$var wire 8 + operand2 [7:0] $end
+$var wire 8 , r1 [7:0] $end
+$var wire 8 - r2 [7:0] $end
+$var wire 8 . r3 [7:0] $end
+$var wire 8 / r4 [7:0] $end
+$var wire 8 0 r5 [7:0] $end
+$var wire 8 1 r6 [7:0] $end
+$var wire 8 2 r7 [7:0] $end
+$var wire 8 3 result [7:0] $end
+$var wire 8 4 select [7:0] $end
+$var wire 8 5 p7 [7:0] $end
+$var wire 8 6 p6 [7:0] $end
+$var wire 8 7 p5 [7:0] $end
+$var wire 8 8 p4 [7:0] $end
+$var wire 8 9 p3 [7:0] $end
+$var wire 8 : p2 [7:0] $end
+$var wire 8 ; p1 [7:0] $end
+$scope module a1 $end
+$var wire 8 < operand1 [7:0] $end
+$var wire 8 = operand2 [7:0] $end
+$var wire 8 > sum [7:0] $end
+$var wire 8 ? carry [7:0] $end
+$scope module F[1] $end
+$var wire 1 @ A $end
+$var wire 1 A B $end
+$var wire 1 B ci $end
+$var wire 1 C co $end
+$var wire 1 D sum $end
+$var wire 1 E Z $end
+$var wire 1 F Y $end
+$var wire 1 G X $end
+$scope module h1 $end
+$var wire 1 @ A $end
+$var wire 1 H ABbar $end
+$var wire 1 I Abar $end
+$var wire 1 J AbarB $end
+$var wire 1 A B $end
+$var wire 1 K Bbar $end
+$var wire 1 F carry $end
+$var wire 1 G sum $end
+$upscope $end
+$scope module h2 $end
+$var wire 1 G A $end
+$var wire 1 L ABbar $end
+$var wire 1 M Abar $end
+$var wire 1 N AbarB $end
+$var wire 1 B B $end
+$var wire 1 O Bbar $end
+$var wire 1 E carry $end
+$var wire 1 D sum $end
+$upscope $end
+$upscope $end
+$scope module F[2] $end
+$var wire 1 P A $end
+$var wire 1 Q B $end
+$var wire 1 R ci $end
+$var wire 1 S co $end
+$var wire 1 T sum $end
+$var wire 1 U Z $end
+$var wire 1 V Y $end
+$var wire 1 W X $end
+$scope module h1 $end
+$var wire 1 P A $end
+$var wire 1 X ABbar $end
+$var wire 1 Y Abar $end
+$var wire 1 Z AbarB $end
+$var wire 1 Q B $end
+$var wire 1 [ Bbar $end
+$var wire 1 V carry $end
+$var wire 1 W sum $end
+$upscope $end
+$scope module h2 $end
+$var wire 1 W A $end
+$var wire 1 \ ABbar $end
+$var wire 1 ] Abar $end
+$var wire 1 ^ AbarB $end
+$var wire 1 R B $end
+$var wire 1 _ Bbar $end
+$var wire 1 U carry $end
+$var wire 1 T sum $end
+$upscope $end
+$upscope $end
+$scope module F[3] $end
+$var wire 1 ` A $end
+$var wire 1 a B $end
+$var wire 1 b ci $end
+$var wire 1 c co $end
+$var wire 1 d sum $end
+$var wire 1 e Z $end
+$var wire 1 f Y $end
+$var wire 1 g X $end
+$scope module h1 $end
+$var wire 1 ` A $end
+$var wire 1 h ABbar $end
+$var wire 1 i Abar $end
+$var wire 1 j AbarB $end
+$var wire 1 a B $end
+$var wire 1 k Bbar $end
+$var wire 1 f carry $end
+$var wire 1 g sum $end
+$upscope $end
+$scope module h2 $end
+$var wire 1 g A $end
+$var wire 1 l ABbar $end
+$var wire 1 m Abar $end
+$var wire 1 n AbarB $end
+$var wire 1 b B $end
+$var wire 1 o Bbar $end
+$var wire 1 e carry $end
+$var wire 1 d sum $end
+$upscope $end
+$upscope $end
+$scope module F[4] $end
+$var wire 1 p A $end
+$var wire 1 q B $end
+$var wire 1 r ci $end
+$var wire 1 s co $end
+$var wire 1 t sum $end
+$var wire 1 u Z $end
+$var wire 1 v Y $end
+$var wire 1 w X $end
+$scope module h1 $end
+$var wire 1 p A $end
+$var wire 1 x ABbar $end
+$var wire 1 y Abar $end
+$var wire 1 z AbarB $end
+$var wire 1 q B $end
+$var wire 1 { Bbar $end
+$var wire 1 v carry $end
+$var wire 1 w sum $end
+$upscope $end
+$scope module h2 $end
+$var wire 1 w A $end
+$var wire 1 | ABbar $end
+$var wire 1 } Abar $end
+$var wire 1 ~ AbarB $end
+$var wire 1 r B $end
+$var wire 1 !" Bbar $end
+$var wire 1 u carry $end
+$var wire 1 t sum $end
+$upscope $end
+$upscope $end
+$scope module F[5] $end
+$var wire 1 "" A $end
+$var wire 1 #" B $end
+$var wire 1 $" ci $end
+$var wire 1 %" co $end
+$var wire 1 &" sum $end
+$var wire 1 '" Z $end
+$var wire 1 (" Y $end
+$var wire 1 )" X $end
+$scope module h1 $end
+$var wire 1 "" A $end
+$var wire 1 *" ABbar $end
+$var wire 1 +" Abar $end
+$var wire 1 ," AbarB $end
+$var wire 1 #" B $end
+$var wire 1 -" Bbar $end
+$var wire 1 (" carry $end
+$var wire 1 )" sum $end
+$upscope $end
+$scope module h2 $end
+$var wire 1 )" A $end
+$var wire 1 ." ABbar $end
+$var wire 1 /" Abar $end
+$var wire 1 0" AbarB $end
+$var wire 1 $" B $end
+$var wire 1 1" Bbar $end
+$var wire 1 '" carry $end
+$var wire 1 &" sum $end
+$upscope $end
+$upscope $end
+$scope module F[6] $end
+$var wire 1 2" A $end
+$var wire 1 3" B $end
+$var wire 1 4" ci $end
+$var wire 1 5" co $end
+$var wire 1 6" sum $end
+$var wire 1 7" Z $end
+$var wire 1 8" Y $end
+$var wire 1 9" X $end
+$scope module h1 $end
+$var wire 1 2" A $end
+$var wire 1 :" ABbar $end
+$var wire 1 ;" Abar $end
+$var wire 1 <" AbarB $end
+$var wire 1 3" B $end
+$var wire 1 =" Bbar $end
+$var wire 1 8" carry $end
+$var wire 1 9" sum $end
+$upscope $end
+$scope module h2 $end
+$var wire 1 9" A $end
+$var wire 1 >" ABbar $end
+$var wire 1 ?" Abar $end
+$var wire 1 @" AbarB $end
+$var wire 1 4" B $end
+$var wire 1 A" Bbar $end
+$var wire 1 7" carry $end
+$var wire 1 6" sum $end
+$upscope $end
+$upscope $end
+$scope module F[7] $end
+$var wire 1 B" A $end
+$var wire 1 C" B $end
+$var wire 1 D" ci $end
+$var wire 1 E" co $end
+$var wire 1 F" sum $end
+$var wire 1 G" Z $end
+$var wire 1 H" Y $end
+$var wire 1 I" X $end
+$scope module h1 $end
+$var wire 1 B" A $end
+$var wire 1 J" ABbar $end
+$var wire 1 K" Abar $end
+$var wire 1 L" AbarB $end
+$var wire 1 C" B $end
+$var wire 1 M" Bbar $end
+$var wire 1 H" carry $end
+$var wire 1 I" sum $end
+$upscope $end
+$scope module h2 $end
+$var wire 1 I" A $end
+$var wire 1 N" ABbar $end
+$var wire 1 O" Abar $end
+$var wire 1 P" AbarB $end
+$var wire 1 D" B $end
+$var wire 1 Q" Bbar $end
+$var wire 1 G" carry $end
+$var wire 1 F" sum $end
+$upscope $end
+$upscope $end
+$scope module F0 $end
+$var wire 1 R" A $end
+$var wire 1 S" B $end
+$var wire 1 T" ci $end
+$var wire 1 U" co $end
+$var wire 1 V" sum $end
+$var wire 1 W" Z $end
+$var wire 1 X" Y $end
+$var wire 1 Y" X $end
+$scope module h1 $end
+$var wire 1 R" A $end
+$var wire 1 Z" ABbar $end
+$var wire 1 [" Abar $end
+$var wire 1 \" AbarB $end
+$var wire 1 S" B $end
+$var wire 1 ]" Bbar $end
+$var wire 1 X" carry $end
+$var wire 1 Y" sum $end
+$upscope $end
+$scope module h2 $end
+$var wire 1 Y" A $end
+$var wire 1 ^" ABbar $end
+$var wire 1 _" Abar $end
+$var wire 1 `" AbarB $end
+$var wire 1 T" B $end
+$var wire 1 a" Bbar $end
+$var wire 1 W" carry $end
+$var wire 1 V" sum $end
+$upscope $end
+$upscope $end
+$upscope $end
+$scope module a2 $end
+$var wire 8 b" operand1 [7:0] $end
+$var wire 8 c" operand2 [7:0] $end
+$var wire 8 d" op2 [7:0] $end
+$var wire 8 e" op1 [7:0] $end
+$var wire 8 f" diff [7:0] $end
+$scope module A $end
+$var wire 8 g" operand1 [7:0] $end
+$var wire 8 h" sum [7:0] $end
+$var wire 8 i" operand2 [7:0] $end
+$var wire 8 j" carry [7:0] $end
+$scope module F[1] $end
+$var wire 1 k" A $end
+$var wire 1 l" B $end
+$var wire 1 m" ci $end
+$var wire 1 n" co $end
+$var wire 1 o" sum $end
+$var wire 1 p" Z $end
+$var wire 1 q" Y $end
+$var wire 1 r" X $end
+$scope module h1 $end
+$var wire 1 k" A $end
+$var wire 1 s" ABbar $end
+$var wire 1 t" Abar $end
+$var wire 1 u" AbarB $end
+$var wire 1 l" B $end
+$var wire 1 v" Bbar $end
+$var wire 1 q" carry $end
+$var wire 1 r" sum $end
+$upscope $end
+$scope module h2 $end
+$var wire 1 r" A $end
+$var wire 1 w" ABbar $end
+$var wire 1 x" Abar $end
+$var wire 1 y" AbarB $end
+$var wire 1 m" B $end
+$var wire 1 z" Bbar $end
+$var wire 1 p" carry $end
+$var wire 1 o" sum $end
+$upscope $end
+$upscope $end
+$scope module F[2] $end
+$var wire 1 {" A $end
+$var wire 1 |" B $end
+$var wire 1 }" ci $end
+$var wire 1 ~" co $end
+$var wire 1 !# sum $end
+$var wire 1 "# Z $end
+$var wire 1 ## Y $end
+$var wire 1 $# X $end
+$scope module h1 $end
+$var wire 1 {" A $end
+$var wire 1 %# ABbar $end
+$var wire 1 &# Abar $end
+$var wire 1 '# AbarB $end
+$var wire 1 |" B $end
+$var wire 1 (# Bbar $end
+$var wire 1 ## carry $end
+$var wire 1 $# sum $end
+$upscope $end
+$scope module h2 $end
+$var wire 1 $# A $end
+$var wire 1 )# ABbar $end
+$var wire 1 *# Abar $end
+$var wire 1 +# AbarB $end
+$var wire 1 }" B $end
+$var wire 1 ,# Bbar $end
+$var wire 1 "# carry $end
+$var wire 1 !# sum $end
+$upscope $end
+$upscope $end
+$scope module F[3] $end
+$var wire 1 -# A $end
+$var wire 1 .# B $end
+$var wire 1 /# ci $end
+$var wire 1 0# co $end
+$var wire 1 1# sum $end
+$var wire 1 2# Z $end
+$var wire 1 3# Y $end
+$var wire 1 4# X $end
+$scope module h1 $end
+$var wire 1 -# A $end
+$var wire 1 5# ABbar $end
+$var wire 1 6# Abar $end
+$var wire 1 7# AbarB $end
+$var wire 1 .# B $end
+$var wire 1 8# Bbar $end
+$var wire 1 3# carry $end
+$var wire 1 4# sum $end
+$upscope $end
+$scope module h2 $end
+$var wire 1 4# A $end
+$var wire 1 9# ABbar $end
+$var wire 1 :# Abar $end
+$var wire 1 ;# AbarB $end
+$var wire 1 /# B $end
+$var wire 1 <# Bbar $end
+$var wire 1 2# carry $end
+$var wire 1 1# sum $end
+$upscope $end
+$upscope $end
+$scope module F[4] $end
+$var wire 1 =# A $end
+$var wire 1 ># B $end
+$var wire 1 ?# ci $end
+$var wire 1 @# co $end
+$var wire 1 A# sum $end
+$var wire 1 B# Z $end
+$var wire 1 C# Y $end
+$var wire 1 D# X $end
+$scope module h1 $end
+$var wire 1 =# A $end
+$var wire 1 E# ABbar $end
+$var wire 1 F# Abar $end
+$var wire 1 G# AbarB $end
+$var wire 1 ># B $end
+$var wire 1 H# Bbar $end
+$var wire 1 C# carry $end
+$var wire 1 D# sum $end
+$upscope $end
+$scope module h2 $end
+$var wire 1 D# A $end
+$var wire 1 I# ABbar $end
+$var wire 1 J# Abar $end
+$var wire 1 K# AbarB $end
+$var wire 1 ?# B $end
+$var wire 1 L# Bbar $end
+$var wire 1 B# carry $end
+$var wire 1 A# sum $end
+$upscope $end
+$upscope $end
+$scope module F[5] $end
+$var wire 1 M# A $end
+$var wire 1 N# B $end
+$var wire 1 O# ci $end
+$var wire 1 P# co $end
+$var wire 1 Q# sum $end
+$var wire 1 R# Z $end
+$var wire 1 S# Y $end
+$var wire 1 T# X $end
+$scope module h1 $end
+$var wire 1 M# A $end
+$var wire 1 U# ABbar $end
+$var wire 1 V# Abar $end
+$var wire 1 W# AbarB $end
+$var wire 1 N# B $end
+$var wire 1 X# Bbar $end
+$var wire 1 S# carry $end
+$var wire 1 T# sum $end
+$upscope $end
+$scope module h2 $end
+$var wire 1 T# A $end
+$var wire 1 Y# ABbar $end
+$var wire 1 Z# Abar $end
+$var wire 1 [# AbarB $end
+$var wire 1 O# B $end
+$var wire 1 \# Bbar $end
+$var wire 1 R# carry $end
+$var wire 1 Q# sum $end
+$upscope $end
+$upscope $end
+$scope module F[6] $end
+$var wire 1 ]# A $end
+$var wire 1 ^# B $end
+$var wire 1 _# ci $end
+$var wire 1 `# co $end
+$var wire 1 a# sum $end
+$var wire 1 b# Z $end
+$var wire 1 c# Y $end
+$var wire 1 d# X $end
+$scope module h1 $end
+$var wire 1 ]# A $end
+$var wire 1 e# ABbar $end
+$var wire 1 f# Abar $end
+$var wire 1 g# AbarB $end
+$var wire 1 ^# B $end
+$var wire 1 h# Bbar $end
+$var wire 1 c# carry $end
+$var wire 1 d# sum $end
+$upscope $end
+$scope module h2 $end
+$var wire 1 d# A $end
+$var wire 1 i# ABbar $end
+$var wire 1 j# Abar $end
+$var wire 1 k# AbarB $end
+$var wire 1 _# B $end
+$var wire 1 l# Bbar $end
+$var wire 1 b# carry $end
+$var wire 1 a# sum $end
+$upscope $end
+$upscope $end
+$scope module F[7] $end
+$var wire 1 m# A $end
+$var wire 1 n# B $end
+$var wire 1 o# ci $end
+$var wire 1 p# co $end
+$var wire 1 q# sum $end
+$var wire 1 r# Z $end
+$var wire 1 s# Y $end
+$var wire 1 t# X $end
+$scope module h1 $end
+$var wire 1 m# A $end
+$var wire 1 u# ABbar $end
+$var wire 1 v# Abar $end
+$var wire 1 w# AbarB $end
+$var wire 1 n# B $end
+$var wire 1 x# Bbar $end
+$var wire 1 s# carry $end
+$var wire 1 t# sum $end
+$upscope $end
+$scope module h2 $end
+$var wire 1 t# A $end
+$var wire 1 y# ABbar $end
+$var wire 1 z# Abar $end
+$var wire 1 {# AbarB $end
+$var wire 1 o# B $end
+$var wire 1 |# Bbar $end
+$var wire 1 r# carry $end
+$var wire 1 q# sum $end
+$upscope $end
+$upscope $end
+$scope module F0 $end
+$var wire 1 }# A $end
+$var wire 1 ~# B $end
+$var wire 1 !$ ci $end
+$var wire 1 "$ co $end
+$var wire 1 #$ sum $end
+$var wire 1 $$ Z $end
+$var wire 1 %$ Y $end
+$var wire 1 &$ X $end
+$scope module h1 $end
+$var wire 1 }# A $end
+$var wire 1 '$ ABbar $end
+$var wire 1 ($ Abar $end
+$var wire 1 )$ AbarB $end
+$var wire 1 ~# B $end
+$var wire 1 *$ Bbar $end
+$var wire 1 %$ carry $end
+$var wire 1 &$ sum $end
+$upscope $end
+$scope module h2 $end
+$var wire 1 &$ A $end
+$var wire 1 +$ ABbar $end
+$var wire 1 ,$ Abar $end
+$var wire 1 -$ AbarB $end
+$var wire 1 !$ B $end
+$var wire 1 .$ Bbar $end
+$var wire 1 $$ carry $end
+$var wire 1 #$ sum $end
+$upscope $end
+$upscope $end
+$upscope $end
+$scope module I $end
+$var wire 8 /$ operand1 [7:0] $end
+$var wire 8 0$ ans [7:0] $end
+$scope module A1 $end
+$var wire 8 1$ operand2 [7:0] $end
+$var wire 8 2$ sum [7:0] $end
+$var wire 8 3$ operand1 [7:0] $end
+$var wire 8 4$ carry [7:0] $end
+$scope module F[1] $end
+$var wire 1 5$ A $end
+$var wire 1 6$ B $end
+$var wire 1 7$ ci $end
+$var wire 1 8$ co $end
+$var wire 1 9$ sum $end
+$var wire 1 :$ Z $end
+$var wire 1 ;$ Y $end
+$var wire 1 <$ X $end
+$scope module h1 $end
+$var wire 1 5$ A $end
+$var wire 1 =$ ABbar $end
+$var wire 1 >$ Abar $end
+$var wire 1 ?$ AbarB $end
+$var wire 1 6$ B $end
+$var wire 1 @$ Bbar $end
+$var wire 1 ;$ carry $end
+$var wire 1 <$ sum $end
+$upscope $end
+$scope module h2 $end
+$var wire 1 <$ A $end
+$var wire 1 A$ ABbar $end
+$var wire 1 B$ Abar $end
+$var wire 1 C$ AbarB $end
+$var wire 1 7$ B $end
+$var wire 1 D$ Bbar $end
+$var wire 1 :$ carry $end
+$var wire 1 9$ sum $end
+$upscope $end
+$upscope $end
+$scope module F[2] $end
+$var wire 1 E$ A $end
+$var wire 1 F$ B $end
+$var wire 1 G$ ci $end
+$var wire 1 H$ co $end
+$var wire 1 I$ sum $end
+$var wire 1 J$ Z $end
+$var wire 1 K$ Y $end
+$var wire 1 L$ X $end
+$scope module h1 $end
+$var wire 1 E$ A $end
+$var wire 1 M$ ABbar $end
+$var wire 1 N$ Abar $end
+$var wire 1 O$ AbarB $end
+$var wire 1 F$ B $end
+$var wire 1 P$ Bbar $end
+$var wire 1 K$ carry $end
+$var wire 1 L$ sum $end
+$upscope $end
+$scope module h2 $end
+$var wire 1 L$ A $end
+$var wire 1 Q$ ABbar $end
+$var wire 1 R$ Abar $end
+$var wire 1 S$ AbarB $end
+$var wire 1 G$ B $end
+$var wire 1 T$ Bbar $end
+$var wire 1 J$ carry $end
+$var wire 1 I$ sum $end
+$upscope $end
+$upscope $end
+$scope module F[3] $end
+$var wire 1 U$ A $end
+$var wire 1 V$ B $end
+$var wire 1 W$ ci $end
+$var wire 1 X$ co $end
+$var wire 1 Y$ sum $end
+$var wire 1 Z$ Z $end
+$var wire 1 [$ Y $end
+$var wire 1 \$ X $end
+$scope module h1 $end
+$var wire 1 U$ A $end
+$var wire 1 ]$ ABbar $end
+$var wire 1 ^$ Abar $end
+$var wire 1 _$ AbarB $end
+$var wire 1 V$ B $end
+$var wire 1 `$ Bbar $end
+$var wire 1 [$ carry $end
+$var wire 1 \$ sum $end
+$upscope $end
+$scope module h2 $end
+$var wire 1 \$ A $end
+$var wire 1 a$ ABbar $end
+$var wire 1 b$ Abar $end
+$var wire 1 c$ AbarB $end
+$var wire 1 W$ B $end
+$var wire 1 d$ Bbar $end
+$var wire 1 Z$ carry $end
+$var wire 1 Y$ sum $end
+$upscope $end
+$upscope $end
+$scope module F[4] $end
+$var wire 1 e$ A $end
+$var wire 1 f$ B $end
+$var wire 1 g$ ci $end
+$var wire 1 h$ co $end
+$var wire 1 i$ sum $end
+$var wire 1 j$ Z $end
+$var wire 1 k$ Y $end
+$var wire 1 l$ X $end
+$scope module h1 $end
+$var wire 1 e$ A $end
+$var wire 1 m$ ABbar $end
+$var wire 1 n$ Abar $end
+$var wire 1 o$ AbarB $end
+$var wire 1 f$ B $end
+$var wire 1 p$ Bbar $end
+$var wire 1 k$ carry $end
+$var wire 1 l$ sum $end
+$upscope $end
+$scope module h2 $end
+$var wire 1 l$ A $end
+$var wire 1 q$ ABbar $end
+$var wire 1 r$ Abar $end
+$var wire 1 s$ AbarB $end
+$var wire 1 g$ B $end
+$var wire 1 t$ Bbar $end
+$var wire 1 j$ carry $end
+$var wire 1 i$ sum $end
+$upscope $end
+$upscope $end
+$scope module F[5] $end
+$var wire 1 u$ A $end
+$var wire 1 v$ B $end
+$var wire 1 w$ ci $end
+$var wire 1 x$ co $end
+$var wire 1 y$ sum $end
+$var wire 1 z$ Z $end
+$var wire 1 {$ Y $end
+$var wire 1 |$ X $end
+$scope module h1 $end
+$var wire 1 u$ A $end
+$var wire 1 }$ ABbar $end
+$var wire 1 ~$ Abar $end
+$var wire 1 !% AbarB $end
+$var wire 1 v$ B $end
+$var wire 1 "% Bbar $end
+$var wire 1 {$ carry $end
+$var wire 1 |$ sum $end
+$upscope $end
+$scope module h2 $end
+$var wire 1 |$ A $end
+$var wire 1 #% ABbar $end
+$var wire 1 $% Abar $end
+$var wire 1 %% AbarB $end
+$var wire 1 w$ B $end
+$var wire 1 &% Bbar $end
+$var wire 1 z$ carry $end
+$var wire 1 y$ sum $end
+$upscope $end
+$upscope $end
+$scope module F[6] $end
+$var wire 1 '% A $end
+$var wire 1 (% B $end
+$var wire 1 )% ci $end
+$var wire 1 *% co $end
+$var wire 1 +% sum $end
+$var wire 1 ,% Z $end
+$var wire 1 -% Y $end
+$var wire 1 .% X $end
+$scope module h1 $end
+$var wire 1 '% A $end
+$var wire 1 /% ABbar $end
+$var wire 1 0% Abar $end
+$var wire 1 1% AbarB $end
+$var wire 1 (% B $end
+$var wire 1 2% Bbar $end
+$var wire 1 -% carry $end
+$var wire 1 .% sum $end
+$upscope $end
+$scope module h2 $end
+$var wire 1 .% A $end
+$var wire 1 3% ABbar $end
+$var wire 1 4% Abar $end
+$var wire 1 5% AbarB $end
+$var wire 1 )% B $end
+$var wire 1 6% Bbar $end
+$var wire 1 ,% carry $end
+$var wire 1 +% sum $end
+$upscope $end
+$upscope $end
+$scope module F[7] $end
+$var wire 1 7% A $end
+$var wire 1 8% B $end
+$var wire 1 9% ci $end
+$var wire 1 :% co $end
+$var wire 1 ;% sum $end
+$var wire 1 <% Z $end
+$var wire 1 =% Y $end
+$var wire 1 >% X $end
+$scope module h1 $end
+$var wire 1 7% A $end
+$var wire 1 ?% ABbar $end
+$var wire 1 @% Abar $end
+$var wire 1 A% AbarB $end
+$var wire 1 8% B $end
+$var wire 1 B% Bbar $end
+$var wire 1 =% carry $end
+$var wire 1 >% sum $end
+$upscope $end
+$scope module h2 $end
+$var wire 1 >% A $end
+$var wire 1 C% ABbar $end
+$var wire 1 D% Abar $end
+$var wire 1 E% AbarB $end
+$var wire 1 9% B $end
+$var wire 1 F% Bbar $end
+$var wire 1 <% carry $end
+$var wire 1 ;% sum $end
+$upscope $end
+$upscope $end
+$scope module F0 $end
+$var wire 1 G% A $end
+$var wire 1 H% B $end
+$var wire 1 I% ci $end
+$var wire 1 J% co $end
+$var wire 1 K% sum $end
+$var wire 1 L% Z $end
+$var wire 1 M% Y $end
+$var wire 1 N% X $end
+$scope module h1 $end
+$var wire 1 G% A $end
+$var wire 1 O% ABbar $end
+$var wire 1 P% Abar $end
+$var wire 1 Q% AbarB $end
+$var wire 1 H% B $end
+$var wire 1 R% Bbar $end
+$var wire 1 M% carry $end
+$var wire 1 N% sum $end
+$upscope $end
+$scope module h2 $end
+$var wire 1 N% A $end
+$var wire 1 S% ABbar $end
+$var wire 1 T% Abar $end
+$var wire 1 U% AbarB $end
+$var wire 1 I% B $end
+$var wire 1 V% Bbar $end
+$var wire 1 L% carry $end
+$var wire 1 K% sum $end
+$upscope $end
+$upscope $end
+$upscope $end
+$upscope $end
+$scope module N $end
+$var wire 8 W% operand1 [7:0] $end
+$var wire 8 X% operand2 [7:0] $end
+$var wire 8 Y% result [7:0] $end
+$upscope $end
+$upscope $end
+$scope module a3 $end
+$var wire 8 Z% operand1 [7:0] $end
+$var wire 8 [% ans [7:0] $end
+$scope module A1 $end
+$var wire 8 \% operand1 [7:0] $end
+$var wire 8 ]% operand2 [7:0] $end
+$var wire 8 ^% sum [7:0] $end
+$var wire 8 _% carry [7:0] $end
+$scope module F[1] $end
+$var wire 1 `% A $end
+$var wire 1 a% B $end
+$var wire 1 b% ci $end
+$var wire 1 c% co $end
+$var wire 1 d% sum $end
+$var wire 1 e% Z $end
+$var wire 1 f% Y $end
+$var wire 1 g% X $end
+$scope module h1 $end
+$var wire 1 `% A $end
+$var wire 1 h% ABbar $end
+$var wire 1 i% Abar $end
+$var wire 1 j% AbarB $end
+$var wire 1 a% B $end
+$var wire 1 k% Bbar $end
+$var wire 1 f% carry $end
+$var wire 1 g% sum $end
+$upscope $end
+$scope module h2 $end
+$var wire 1 g% A $end
+$var wire 1 l% ABbar $end
+$var wire 1 m% Abar $end
+$var wire 1 n% AbarB $end
+$var wire 1 b% B $end
+$var wire 1 o% Bbar $end
+$var wire 1 e% carry $end
+$var wire 1 d% sum $end
+$upscope $end
+$upscope $end
+$scope module F[2] $end
+$var wire 1 p% A $end
+$var wire 1 q% B $end
+$var wire 1 r% ci $end
+$var wire 1 s% co $end
+$var wire 1 t% sum $end
+$var wire 1 u% Z $end
+$var wire 1 v% Y $end
+$var wire 1 w% X $end
+$scope module h1 $end
+$var wire 1 p% A $end
+$var wire 1 x% ABbar $end
+$var wire 1 y% Abar $end
+$var wire 1 z% AbarB $end
+$var wire 1 q% B $end
+$var wire 1 {% Bbar $end
+$var wire 1 v% carry $end
+$var wire 1 w% sum $end
+$upscope $end
+$scope module h2 $end
+$var wire 1 w% A $end
+$var wire 1 |% ABbar $end
+$var wire 1 }% Abar $end
+$var wire 1 ~% AbarB $end
+$var wire 1 r% B $end
+$var wire 1 !& Bbar $end
+$var wire 1 u% carry $end
+$var wire 1 t% sum $end
+$upscope $end
+$upscope $end
+$scope module F[3] $end
+$var wire 1 "& A $end
+$var wire 1 #& B $end
+$var wire 1 $& ci $end
+$var wire 1 %& co $end
+$var wire 1 && sum $end
+$var wire 1 '& Z $end
+$var wire 1 (& Y $end
+$var wire 1 )& X $end
+$scope module h1 $end
+$var wire 1 "& A $end
+$var wire 1 *& ABbar $end
+$var wire 1 +& Abar $end
+$var wire 1 ,& AbarB $end
+$var wire 1 #& B $end
+$var wire 1 -& Bbar $end
+$var wire 1 (& carry $end
+$var wire 1 )& sum $end
+$upscope $end
+$scope module h2 $end
+$var wire 1 )& A $end
+$var wire 1 .& ABbar $end
+$var wire 1 /& Abar $end
+$var wire 1 0& AbarB $end
+$var wire 1 $& B $end
+$var wire 1 1& Bbar $end
+$var wire 1 '& carry $end
+$var wire 1 && sum $end
+$upscope $end
+$upscope $end
+$scope module F[4] $end
+$var wire 1 2& A $end
+$var wire 1 3& B $end
+$var wire 1 4& ci $end
+$var wire 1 5& co $end
+$var wire 1 6& sum $end
+$var wire 1 7& Z $end
+$var wire 1 8& Y $end
+$var wire 1 9& X $end
+$scope module h1 $end
+$var wire 1 2& A $end
+$var wire 1 :& ABbar $end
+$var wire 1 ;& Abar $end
+$var wire 1 <& AbarB $end
+$var wire 1 3& B $end
+$var wire 1 =& Bbar $end
+$var wire 1 8& carry $end
+$var wire 1 9& sum $end
+$upscope $end
+$scope module h2 $end
+$var wire 1 9& A $end
+$var wire 1 >& ABbar $end
+$var wire 1 ?& Abar $end
+$var wire 1 @& AbarB $end
+$var wire 1 4& B $end
+$var wire 1 A& Bbar $end
+$var wire 1 7& carry $end
+$var wire 1 6& sum $end
+$upscope $end
+$upscope $end
+$scope module F[5] $end
+$var wire 1 B& A $end
+$var wire 1 C& B $end
+$var wire 1 D& ci $end
+$var wire 1 E& co $end
+$var wire 1 F& sum $end
+$var wire 1 G& Z $end
+$var wire 1 H& Y $end
+$var wire 1 I& X $end
+$scope module h1 $end
+$var wire 1 B& A $end
+$var wire 1 J& ABbar $end
+$var wire 1 K& Abar $end
+$var wire 1 L& AbarB $end
+$var wire 1 C& B $end
+$var wire 1 M& Bbar $end
+$var wire 1 H& carry $end
+$var wire 1 I& sum $end
+$upscope $end
+$scope module h2 $end
+$var wire 1 I& A $end
+$var wire 1 N& ABbar $end
+$var wire 1 O& Abar $end
+$var wire 1 P& AbarB $end
+$var wire 1 D& B $end
+$var wire 1 Q& Bbar $end
+$var wire 1 G& carry $end
+$var wire 1 F& sum $end
+$upscope $end
+$upscope $end
+$scope module F[6] $end
+$var wire 1 R& A $end
+$var wire 1 S& B $end
+$var wire 1 T& ci $end
+$var wire 1 U& co $end
+$var wire 1 V& sum $end
+$var wire 1 W& Z $end
+$var wire 1 X& Y $end
+$var wire 1 Y& X $end
+$scope module h1 $end
+$var wire 1 R& A $end
+$var wire 1 Z& ABbar $end
+$var wire 1 [& Abar $end
+$var wire 1 \& AbarB $end
+$var wire 1 S& B $end
+$var wire 1 ]& Bbar $end
+$var wire 1 X& carry $end
+$var wire 1 Y& sum $end
+$upscope $end
+$scope module h2 $end
+$var wire 1 Y& A $end
+$var wire 1 ^& ABbar $end
+$var wire 1 _& Abar $end
+$var wire 1 `& AbarB $end
+$var wire 1 T& B $end
+$var wire 1 a& Bbar $end
+$var wire 1 W& carry $end
+$var wire 1 V& sum $end
+$upscope $end
+$upscope $end
+$scope module F[7] $end
+$var wire 1 b& A $end
+$var wire 1 c& B $end
+$var wire 1 d& ci $end
+$var wire 1 e& co $end
+$var wire 1 f& sum $end
+$var wire 1 g& Z $end
+$var wire 1 h& Y $end
+$var wire 1 i& X $end
+$scope module h1 $end
+$var wire 1 b& A $end
+$var wire 1 j& ABbar $end
+$var wire 1 k& Abar $end
+$var wire 1 l& AbarB $end
+$var wire 1 c& B $end
+$var wire 1 m& Bbar $end
+$var wire 1 h& carry $end
+$var wire 1 i& sum $end
+$upscope $end
+$scope module h2 $end
+$var wire 1 i& A $end
+$var wire 1 n& ABbar $end
+$var wire 1 o& Abar $end
+$var wire 1 p& AbarB $end
+$var wire 1 d& B $end
+$var wire 1 q& Bbar $end
+$var wire 1 g& carry $end
+$var wire 1 f& sum $end
+$upscope $end
+$upscope $end
+$scope module F0 $end
+$var wire 1 r& A $end
+$var wire 1 s& B $end
+$var wire 1 t& ci $end
+$var wire 1 u& co $end
+$var wire 1 v& sum $end
+$var wire 1 w& Z $end
+$var wire 1 x& Y $end
+$var wire 1 y& X $end
+$scope module h1 $end
+$var wire 1 r& A $end
+$var wire 1 z& ABbar $end
+$var wire 1 {& Abar $end
+$var wire 1 |& AbarB $end
+$var wire 1 s& B $end
+$var wire 1 }& Bbar $end
+$var wire 1 x& carry $end
+$var wire 1 y& sum $end
+$upscope $end
+$scope module h2 $end
+$var wire 1 y& A $end
+$var wire 1 ~& ABbar $end
+$var wire 1 !' Abar $end
+$var wire 1 "' AbarB $end
+$var wire 1 t& B $end
+$var wire 1 #' Bbar $end
+$var wire 1 w& carry $end
+$var wire 1 v& sum $end
+$upscope $end
+$upscope $end
+$upscope $end
+$upscope $end
+$scope module a4 $end
+$var wire 8 $' op [7:0] $end
+$var wire 8 %' operand1 [7:0] $end
+$var wire 8 &' ans [7:0] $end
+$scope module A $end
+$var wire 8 '' operand1 [7:0] $end
+$var wire 8 (' operand2 [7:0] $end
+$var wire 8 )' sum [7:0] $end
+$var wire 8 *' carry [7:0] $end
+$scope module F[1] $end
+$var wire 1 +' A $end
+$var wire 1 ,' B $end
+$var wire 1 -' ci $end
+$var wire 1 .' co $end
+$var wire 1 /' sum $end
+$var wire 1 0' Z $end
+$var wire 1 1' Y $end
+$var wire 1 2' X $end
+$scope module h1 $end
+$var wire 1 +' A $end
+$var wire 1 3' ABbar $end
+$var wire 1 4' Abar $end
+$var wire 1 5' AbarB $end
+$var wire 1 ,' B $end
+$var wire 1 6' Bbar $end
+$var wire 1 1' carry $end
+$var wire 1 2' sum $end
+$upscope $end
+$scope module h2 $end
+$var wire 1 2' A $end
+$var wire 1 7' ABbar $end
+$var wire 1 8' Abar $end
+$var wire 1 9' AbarB $end
+$var wire 1 -' B $end
+$var wire 1 :' Bbar $end
+$var wire 1 0' carry $end
+$var wire 1 /' sum $end
+$upscope $end
+$upscope $end
+$scope module F[2] $end
+$var wire 1 ;' A $end
+$var wire 1 <' B $end
+$var wire 1 =' ci $end
+$var wire 1 >' co $end
+$var wire 1 ?' sum $end
+$var wire 1 @' Z $end
+$var wire 1 A' Y $end
+$var wire 1 B' X $end
+$scope module h1 $end
+$var wire 1 ;' A $end
+$var wire 1 C' ABbar $end
+$var wire 1 D' Abar $end
+$var wire 1 E' AbarB $end
+$var wire 1 <' B $end
+$var wire 1 F' Bbar $end
+$var wire 1 A' carry $end
+$var wire 1 B' sum $end
+$upscope $end
+$scope module h2 $end
+$var wire 1 B' A $end
+$var wire 1 G' ABbar $end
+$var wire 1 H' Abar $end
+$var wire 1 I' AbarB $end
+$var wire 1 =' B $end
+$var wire 1 J' Bbar $end
+$var wire 1 @' carry $end
+$var wire 1 ?' sum $end
+$upscope $end
+$upscope $end
+$scope module F[3] $end
+$var wire 1 K' A $end
+$var wire 1 L' B $end
+$var wire 1 M' ci $end
+$var wire 1 N' co $end
+$var wire 1 O' sum $end
+$var wire 1 P' Z $end
+$var wire 1 Q' Y $end
+$var wire 1 R' X $end
+$scope module h1 $end
+$var wire 1 K' A $end
+$var wire 1 S' ABbar $end
+$var wire 1 T' Abar $end
+$var wire 1 U' AbarB $end
+$var wire 1 L' B $end
+$var wire 1 V' Bbar $end
+$var wire 1 Q' carry $end
+$var wire 1 R' sum $end
+$upscope $end
+$scope module h2 $end
+$var wire 1 R' A $end
+$var wire 1 W' ABbar $end
+$var wire 1 X' Abar $end
+$var wire 1 Y' AbarB $end
+$var wire 1 M' B $end
+$var wire 1 Z' Bbar $end
+$var wire 1 P' carry $end
+$var wire 1 O' sum $end
+$upscope $end
+$upscope $end
+$scope module F[4] $end
+$var wire 1 [' A $end
+$var wire 1 \' B $end
+$var wire 1 ]' ci $end
+$var wire 1 ^' co $end
+$var wire 1 _' sum $end
+$var wire 1 `' Z $end
+$var wire 1 a' Y $end
+$var wire 1 b' X $end
+$scope module h1 $end
+$var wire 1 [' A $end
+$var wire 1 c' ABbar $end
+$var wire 1 d' Abar $end
+$var wire 1 e' AbarB $end
+$var wire 1 \' B $end
+$var wire 1 f' Bbar $end
+$var wire 1 a' carry $end
+$var wire 1 b' sum $end
+$upscope $end
+$scope module h2 $end
+$var wire 1 b' A $end
+$var wire 1 g' ABbar $end
+$var wire 1 h' Abar $end
+$var wire 1 i' AbarB $end
+$var wire 1 ]' B $end
+$var wire 1 j' Bbar $end
+$var wire 1 `' carry $end
+$var wire 1 _' sum $end
+$upscope $end
+$upscope $end
+$scope module F[5] $end
+$var wire 1 k' A $end
+$var wire 1 l' B $end
+$var wire 1 m' ci $end
+$var wire 1 n' co $end
+$var wire 1 o' sum $end
+$var wire 1 p' Z $end
+$var wire 1 q' Y $end
+$var wire 1 r' X $end
+$scope module h1 $end
+$var wire 1 k' A $end
+$var wire 1 s' ABbar $end
+$var wire 1 t' Abar $end
+$var wire 1 u' AbarB $end
+$var wire 1 l' B $end
+$var wire 1 v' Bbar $end
+$var wire 1 q' carry $end
+$var wire 1 r' sum $end
+$upscope $end
+$scope module h2 $end
+$var wire 1 r' A $end
+$var wire 1 w' ABbar $end
+$var wire 1 x' Abar $end
+$var wire 1 y' AbarB $end
+$var wire 1 m' B $end
+$var wire 1 z' Bbar $end
+$var wire 1 p' carry $end
+$var wire 1 o' sum $end
+$upscope $end
+$upscope $end
+$scope module F[6] $end
+$var wire 1 {' A $end
+$var wire 1 |' B $end
+$var wire 1 }' ci $end
+$var wire 1 ~' co $end
+$var wire 1 !( sum $end
+$var wire 1 "( Z $end
+$var wire 1 #( Y $end
+$var wire 1 $( X $end
+$scope module h1 $end
+$var wire 1 {' A $end
+$var wire 1 %( ABbar $end
+$var wire 1 &( Abar $end
+$var wire 1 '( AbarB $end
+$var wire 1 |' B $end
+$var wire 1 (( Bbar $end
+$var wire 1 #( carry $end
+$var wire 1 $( sum $end
+$upscope $end
+$scope module h2 $end
+$var wire 1 $( A $end
+$var wire 1 )( ABbar $end
+$var wire 1 *( Abar $end
+$var wire 1 +( AbarB $end
+$var wire 1 }' B $end
+$var wire 1 ,( Bbar $end
+$var wire 1 "( carry $end
+$var wire 1 !( sum $end
+$upscope $end
+$upscope $end
+$scope module F[7] $end
+$var wire 1 -( A $end
+$var wire 1 .( B $end
+$var wire 1 /( ci $end
+$var wire 1 0( co $end
+$var wire 1 1( sum $end
+$var wire 1 2( Z $end
+$var wire 1 3( Y $end
+$var wire 1 4( X $end
+$scope module h1 $end
+$var wire 1 -( A $end
+$var wire 1 5( ABbar $end
+$var wire 1 6( Abar $end
+$var wire 1 7( AbarB $end
+$var wire 1 .( B $end
+$var wire 1 8( Bbar $end
+$var wire 1 3( carry $end
+$var wire 1 4( sum $end
+$upscope $end
+$scope module h2 $end
+$var wire 1 4( A $end
+$var wire 1 9( ABbar $end
+$var wire 1 :( Abar $end
+$var wire 1 ;( AbarB $end
+$var wire 1 /( B $end
+$var wire 1 <( Bbar $end
+$var wire 1 2( carry $end
+$var wire 1 1( sum $end
+$upscope $end
+$upscope $end
+$scope module F0 $end
+$var wire 1 =( A $end
+$var wire 1 >( B $end
+$var wire 1 ?( ci $end
+$var wire 1 @( co $end
+$var wire 1 A( sum $end
+$var wire 1 B( Z $end
+$var wire 1 C( Y $end
+$var wire 1 D( X $end
+$scope module h1 $end
+$var wire 1 =( A $end
+$var wire 1 E( ABbar $end
+$var wire 1 F( Abar $end
+$var wire 1 G( AbarB $end
+$var wire 1 >( B $end
+$var wire 1 H( Bbar $end
+$var wire 1 C( carry $end
+$var wire 1 D( sum $end
+$upscope $end
+$scope module h2 $end
+$var wire 1 D( A $end
+$var wire 1 I( ABbar $end
+$var wire 1 J( Abar $end
+$var wire 1 K( AbarB $end
+$var wire 1 ?( B $end
+$var wire 1 L( Bbar $end
+$var wire 1 B( carry $end
+$var wire 1 A( sum $end
+$upscope $end
+$upscope $end
+$upscope $end
+$upscope $end
+$scope module a5 $end
+$var wire 8 M( operand1 [7:0] $end
+$var wire 8 N( operand2 [7:0] $end
+$var wire 8 O( result [7:0] $end
+$upscope $end
+$scope module a6 $end
+$var wire 8 P( operand1 [7:0] $end
+$var wire 8 Q( operand2 [7:0] $end
+$var wire 8 R( result [7:0] $end
+$upscope $end
+$scope module a7 $end
+$var wire 8 S( operand1 [7:0] $end
+$var wire 8 T( operand2 [7:0] $end
+$var wire 8 U( result [7:0] $end
+$upscope $end
+$upscope $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+$comment Show the parameter values. $end
+$dumpall
+$end
+#0
+$dumpvars
+b11011100 U(
+bz T(
+b100011 S(
+b110111 R(
+b10100 Q(
+b100011 P(
+b0 O(
+b10100 N(
+b100011 M(
+1L(
+0K(
+1J(
+0I(
+0H(
+0G(
+0F(
+0E(
+0D(
+1C(
+0B(
+0A(
+1@(
+0?(
+1>(
+1=(
+0<(
+0;(
+0:(
+09(
+08(
+17(
+16(
+05(
+14(
+03(
+12(
+01(
+10(
+1/(
+1.(
+0-(
+0,(
+0+(
+0*(
+0)(
+0((
+1'(
+1&(
+0%(
+1$(
+0#(
+1"(
+0!(
+1~'
+1}'
+1|'
+0{'
+0z'
+1y'
+1x'
+0w'
+0v'
+0u'
+0t'
+0s'
+0r'
+1q'
+0p'
+1o'
+1n'
+1m'
+1l'
+1k'
+0j'
+0i'
+0h'
+0g'
+0f'
+1e'
+1d'
+0c'
+1b'
+0a'
+1`'
+0_'
+1^'
+1]'
+1\'
+0['
+0Z'
+0Y'
+0X'
+0W'
+0V'
+1U'
+1T'
+0S'
+1R'
+0Q'
+1P'
+0O'
+1N'
+1M'
+1L'
+0K'
+0J'
+0I'
+0H'
+0G'
+0F'
+1E'
+1D'
+0C'
+1B'
+0A'
+1@'
+0?'
+1>'
+1='
+1<'
+0;'
+0:'
+19'
+18'
+07'
+06'
+05'
+04'
+03'
+02'
+11'
+00'
+1/'
+1.'
+1-'
+1,'
+1+'
+b11111111 *'
+b100010 )'
+b11111111 ('
+b100011 ''
+b100010 &'
+b100011 %'
+b11111111 $'
+1#'
+0"'
+1!'
+0~&
+0}&
+0|&
+0{&
+0z&
+0y&
+1x&
+0w&
+0v&
+1u&
+0t&
+1s&
+1r&
+1q&
+0p&
+1o&
+0n&
+1m&
+0l&
+1k&
+0j&
+0i&
+0h&
+0g&
+0f&
+0e&
+0d&
+0c&
+0b&
+1a&
+0`&
+1_&
+0^&
+1]&
+0\&
+1[&
+0Z&
+0Y&
+0X&
+0W&
+0V&
+0U&
+0T&
+0S&
+0R&
+1Q&
+0P&
+0O&
+1N&
+1M&
+0L&
+0K&
+1J&
+1I&
+0H&
+0G&
+1F&
+0E&
+0D&
+0C&
+1B&
+1A&
+0@&
+1?&
+0>&
+1=&
+0<&
+1;&
+0:&
+09&
+08&
+07&
+06&
+05&
+04&
+03&
+02&
+11&
+00&
+1/&
+0.&
+1-&
+0,&
+1+&
+0*&
+0)&
+0(&
+0'&
+0&&
+0%&
+0$&
+0#&
+0"&
+0!&
+1~%
+1}%
+0|%
+1{%
+0z%
+1y%
+0x%
+0w%
+0v%
+0u%
+1t%
+0s%
+1r%
+0q%
+0p%
+0o%
+0n%
+0m%
+0l%
+1k%
+0j%
+0i%
+1h%
+1g%
+0f%
+1e%
+0d%
+1c%
+1b%
+0a%
+1`%
+b11 _%
+b100100 ^%
+b1 ]%
+b100011 \%
+b100100 [%
+b100011 Z%
+b11101011 Y%
+bz X%
+b10100 W%
+1V%
+0U%
+1T%
+0S%
+0R%
+0Q%
+0P%
+0O%
+0N%
+1M%
+0L%
+0K%
+1J%
+0I%
+1H%
+1G%
+1F%
+0E%
+0D%
+1C%
+1B%
+0A%
+0@%
+1?%
+1>%
+0=%
+0<%
+1;%
+0:%
+09%
+08%
+17%
+16%
+05%
+04%
+13%
+12%
+01%
+00%
+1/%
+1.%
+0-%
+0,%
+1+%
+0*%
+0)%
+0(%
+1'%
+1&%
+0%%
+0$%
+1#%
+1"%
+0!%
+0~$
+1}$
+1|$
+0{$
+0z$
+1y$
+0x$
+0w$
+0v$
+1u$
+1t$
+0s$
+1r$
+0q$
+1p$
+0o$
+1n$
+0m$
+0l$
+0k$
+0j$
+0i$
+0h$
+0g$
+0f$
+0e$
+1d$
+0c$
+0b$
+1a$
+1`$
+0_$
+0^$
+1]$
+1\$
+0[$
+0Z$
+1Y$
+0X$
+0W$
+0V$
+1U$
+0T$
+1S$
+1R$
+0Q$
+1P$
+0O$
+1N$
+0M$
+0L$
+0K$
+0J$
+1I$
+0H$
+1G$
+0F$
+0E$
+0D$
+0C$
+0B$
+0A$
+1@$
+0?$
+0>$
+1=$
+1<$
+0;$
+1:$
+09$
+18$
+17$
+06$
+15$
+b11 4$
+b11101011 3$
+b11101100 2$
+b1 1$
+b11101100 0$
+b11101011 /$
+1.$
+0-$
+0,$
+1+$
+1*$
+0)$
+0($
+1'$
+1&$
+0%$
+0$$
+1#$
+0"$
+0!$
+0~#
+1}#
+0|#
+0{#
+0z#
+0y#
+0x#
+1w#
+1v#
+0u#
+1t#
+0s#
+1r#
+0q#
+1p#
+1o#
+1n#
+0m#
+0l#
+0k#
+0j#
+0i#
+0h#
+1g#
+1f#
+0e#
+1d#
+0c#
+1b#
+0a#
+1`#
+1_#
+1^#
+0]#
+1\#
+0[#
+1Z#
+0Y#
+0X#
+0W#
+0V#
+0U#
+0T#
+1S#
+0R#
+0Q#
+1P#
+0O#
+1N#
+1M#
+1L#
+0K#
+1J#
+0I#
+1H#
+0G#
+1F#
+0E#
+0D#
+0C#
+0B#
+0A#
+0@#
+0?#
+0>#
+0=#
+1<#
+0;#
+0:#
+19#
+08#
+17#
+16#
+05#
+14#
+03#
+02#
+11#
+00#
+0/#
+1.#
+0-#
+1,#
+0+#
+0*#
+1)#
+0(#
+1'#
+1&#
+0%#
+1$#
+0##
+0"#
+1!#
+0~"
+0}"
+1|"
+0{"
+1z"
+0y"
+0x"
+1w"
+1v"
+0u"
+0t"
+1s"
+1r"
+0q"
+0p"
+1o"
+0n"
+0m"
+0l"
+1k"
+b11100000 j"
+b11101100 i"
+b1111 h"
+b100011 g"
+b1111 f"
+b11101011 e"
+b11101100 d"
+b10100 c"
+b100011 b"
+1a"
+0`"
+0_"
+1^"
+1]"
+0\"
+0["
+1Z"
+1Y"
+0X"
+0W"
+1V"
+0U"
+0T"
+0S"
+1R"
+1Q"
+0P"
+1O"
+0N"
+1M"
+0L"
+1K"
+0J"
+0I"
+0H"
+0G"
+0F"
+0E"
+0D"
+0C"
+0B"
+1A"
+0@"
+1?"
+0>"
+1="
+0<"
+1;"
+0:"
+09"
+08"
+07"
+06"
+05"
+04"
+03"
+02"
+11"
+00"
+0/"
+1."
+1-"
+0,"
+0+"
+1*"
+1)"
+0("
+0'"
+1&"
+0%"
+0$"
+0#"
+1""
+1!"
+0~
+0}
+1|
+0{
+1z
+1y
+0x
+1w
+0v
+0u
+1t
+0s
+0r
+1q
+0p
+1o
+0n
+1m
+0l
+1k
+0j
+1i
+0h
+0g
+0f
+0e
+0d
+0c
+0b
+0a
+0`
+1_
+0^
+0]
+1\
+0[
+1Z
+1Y
+0X
+1W
+0V
+0U
+1T
+0S
+0R
+1Q
+0P
+1O
+0N
+0M
+1L
+1K
+0J
+0I
+1H
+1G
+0F
+0E
+1D
+0C
+0B
+0A
+1@
+b0 ?
+b110111 >
+b10100 =
+b100011 <
+b110111 ;
+b1111 :
+b100100 9
+b100010 8
+b0 7
+b110111 6
+b11011100 5
+b10 4
+b110111 3
+b0 2
+b0 1
+b0 0
+b0 /
+b0 .
+b0 -
+b110111 ,
+b10100 +
+b100011 *
+b110111 )
+b10 (
+b110 '
+b1 &
+b10100 %
+b100011 $
+b10010001100010100 #
+b10010001100010100 "
+b110111 !
+$end
+#20
+b1111 !
+b1111 )
+b1111 3
+b1111 -
+b0 ,
+b100 (
+b100 4
+b101 '
+b10 &
+b100010001100010100 "
+b100010001100010100 #
+#40
+b100100 !
+b100100 )
+b100100 3
+b0 -
+b100100 .
+b1000 (
+b1000 4
+b100 '
+b11 &
+b110010001100010100 "
+b110010001100010100 #
+#60
+b100010 !
+b100010 )
+b100010 3
+b100010 /
+b0 .
+b10000 (
+b10000 4
+b11 '
+b100 &
+b1000010001100010100 "
+b1000010001100010100 #
+#80
+b0 !
+b0 )
+b0 3
+b0 /
+b100000 (
+b100000 4
+b10 '
+b101 &
+b1010010001100010100 "
+b1010010001100010100 #
+#100
+b110111 !
+b110111 )
+b110111 3
+b110111 1
+b1000000 (
+b1000000 4
+b1 '
+b110 &
+b1100010001100010100 "
+b1100010001100010100 #
+#120
+b11011100 !
+b11011100 )
+b11011100 3
+b0 1
+b11011100 2
+b10000000 (
+b10000000 4
+b0 '
+b111 &
+b1110010001100010100 "
+b1110010001100010100 #
+#140
